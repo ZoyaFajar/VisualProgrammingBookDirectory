@@ -13,7 +13,7 @@ namespace OELVP
 {
     public partial class InsertBook : System.Web.UI.Page
     {
-        SqlConnection conn = new SqlConnection(@"Data Source=Zoya\SQLEXPRESS01;Initial Catalog=OELVP;Integrated Security=True");
+        SqlConnection conn = new SqlConnection(@"");
         protected void Page_Load(object sender, EventArgs e)
         {
             try

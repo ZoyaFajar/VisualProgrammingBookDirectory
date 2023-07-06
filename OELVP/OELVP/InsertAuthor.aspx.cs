@@ -39,7 +39,7 @@ namespace OELVP
 
         protected void btnAdd_Click(object sender, EventArgs e)
         {
-            SqlConnection conn = new SqlConnection(@"Data Source=Zoya\SQLEXPRESS01;Initial Catalog=OELVP;Integrated Security=True");
+            SqlConnection conn = new SqlConnection(@"");
             string name = txtName.Text;
             string bio = txtBio.Text;
             string country = Convert.ToString(DropDownList1.SelectedItem);
